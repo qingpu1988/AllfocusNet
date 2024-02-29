@@ -6,7 +6,7 @@ The dataset is shared in [Baidu Drive](https://pan.baidu.com/s/1xzNhYjPm8G31kyyq
 The typical images are shown below.
 ![fig1](https://github.com/qingpu1988/AllfocusNet/blob/main/Fig3.png)
 ### The algorithm
-The network is shown below, $\textbf{the code has be released，which is heavily borrowed from the LF-InterNet, many thanks!}$.
+The network is shown below, $\textbf{the code has been released，which is heavily borrowed from the LF-InterNet, many thanks!,For the feature extraction layer, maybe the convolutional layer in distgdisp will be more efficient, by reducing 5-branches to 3-brabches. However,if you choose that, maybe the performance in occlude regions will be weakened}$.
 ![fig2](https://github.com/qingpu1988/AllfocusNet/blob/main/Fig4.png)
 ### The results
 The MSE and SSIM results for 15 testing images are listed below.
